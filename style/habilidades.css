@@ -1,0 +1,34 @@
+.conteudo_secundario{
+    display: flex;
+    justify-content: center;
+}
+
+
+.conteudo_principal-terciario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    gap: 50px;
+} 
+
+.terciario_container{
+    padding: 4rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #FFFFFF;
+    margin-left: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container_react {
+    box-shadow: 0 0 10px 5px #15EFFA;
+}
+
+.container_js {
+    box-shadow: 0 0 10px 5px #E6EC00;    
+}
+
+.cor_react{
+    color: #15EFFA;
+}

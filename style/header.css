@@ -1,0 +1,59 @@
+.cabecalho {
+    position: fixed; 
+    top: 0; 
+    display: flex;
+    padding: 1% 5% 1% 0%;
+    flex-direction: row;
+    justify-content: end;
+    background: #0F0E0E;
+    box-shadow: 0px 2px 4px #950101;
+    width: 100%; 
+    z-index: 999; 
+}
+
+  .cabecalho_links{
+    line-height:25px; margin-bottom:10px; text-align: center;
+    padding: 10px;
+    display: flex;
+    gap: 90px;
+    margin-right: 6.25rem;
+}
+
+/* Links animado */       
+.cabecalho_links_botao{
+  text-decoration: none;
+  background-color: auto;
+  color: white;
+  transition: 0.3s;
+  position: relative;
+}
+
+
+.cabecalho_links_botao::after{
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: -2px;
+  padding: 0 2px;
+  width: calc(100% + 2px);
+  height: 1px;
+  border-bottom: 1px solid var(--cor-secundaria);
+  transition: 0.4s;
+}
+
+.cabecalho_links_botao:hover::after{
+  top: 0;
+  height: 1.5em;
+  background-color: var(--cor-secundaria);
+  border-color: transparent;
+}
+
+.cabecalho_links_botao:hover{
+  color: black;transition:0.4s;    
+}
+
+.cabecalho_links_botao span{
+  position: relative;z-index:2;
+}
+/* fim da animação */

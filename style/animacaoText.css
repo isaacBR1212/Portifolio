@@ -1,0 +1,15 @@
+@import 'animate.css';
+
+
+
+:root {
+    animation-duration: 1s;
+}
+
+.animate__fadeInLeft{
+    animation-duration: 1s;
+}
+
+.animate__fadeIn{
+    animation-duration: 3s;
+}

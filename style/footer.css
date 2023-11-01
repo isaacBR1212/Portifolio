@@ -1,0 +1,18 @@
+.rodape{
+    padding: 2em;
+    background-color: #0F0E0E;
+    justify-content: center;
+}
+
+.rodape_redeSociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape_titulo{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+}   
